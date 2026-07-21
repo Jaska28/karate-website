@@ -21,14 +21,6 @@ export default function Footer() {
                         </ul>
                     </nav>
                 </section>
-
-                <section className={styles.section}>
-                    <h3>Contact</h3>
-                    <address>
-                        <p>jsimcyr@gmail.com</p>
-                        <p>Sherbrooke, QC</p>
-                    </address>
-                </section>
             </div>
 
             <p className={styles.copyright}>© 2026 Jean-Simon Cyr</p>

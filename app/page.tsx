@@ -8,7 +8,7 @@ export default function Home() {
             <section className={styles.me}>
                 <Image
                     className={styles.photoMe}
-                    src="/images/compe-ps.jpg"
+                    src="/images/compe-ps-v2.jpg"
                     alt="moi compe"
                     width={500}
                     height={625}
