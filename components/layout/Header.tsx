@@ -5,7 +5,6 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <section className={styles.content}>
-                <h1>Karate - logo</h1>
                 <nav className={styles.nav}>
                     <ul>
                         <li><Link href="/">Accueil</Link></li>

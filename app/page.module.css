@@ -1,11 +1,37 @@
 .me {
     display: flex;
     align-items: center;
-    gap: 32px;
+    justify-content: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    gap: 64px;
+
+    padding: 64px 32px;
 }
 
 .photoMe{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     padding: 16px;
+}
+
+/* This section is for responsive design, adjusting the layout for smaller screens */
+@media (max-width: 768px) {
+    .me {
+        flex-direction: column;
+    }
+
+    .photoMe {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.meContent {
+    max-width: 600px;
 }
 
 .me h1 {
@@ -34,9 +60,15 @@
 }
 
 .link{
-    background-color: #00ff51;
+    background-color: var(--color-primary);
     padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
-    color: black;
+    color: white;
+    margin-top: 16px;
+}
+
+.main p {
+    color: var(--color-text);
+    font-size: 20px;
 }
