@@ -4,24 +4,25 @@ import styles from "./page.module.css";
 
 export default function Home() {
     return (
-        <main>
+        <main className={styles.main}>
             <section className={styles.me}>
                 <Image
                     className={styles.photoMe}
                     src="/images/compe-ps.jpg"
                     alt="moi compe"
-                    width={600}
-                    height={400}
+                    width={500}
+                    height={625}
                     priority
                 />
 
-                <div>
+                <div className={styles.meContent}>
                     <h1>
                         Jean-Simon Cyr
                     </h1>
-                    <p>Cours privés de karaté à Sherbrooke
-                        Progressez à votre rythme grâce à un accompagnement personnalisé, que vous soyez débutant ou intermédiaire.</p>
-                    <Link href="/private-lessons">En savoir plus</Link>
+                    <p>Cours privés de karaté à Sherbrooke.</p>
+                    <p>Progressez à votre rythme grâce à un accompagnement personnalisé, que vous soyez débutant ou
+                        intermédiaire.</p>
+                    <Link className={styles.link} href="/private-lessons">En savoir plus</Link>
                 </div>
             </section>
 
@@ -31,10 +32,10 @@ export default function Home() {
                 <Link className={styles.link} href="/private-lessons">En savoir plus</Link>
             </section>
 
-            <section className = {styles.game}>
+            <section className={styles.game}>
                 <h2>Jeux d'apprentissage</h2>
                 <p>De petits jeux éducatifs autour du karaté sont en développement.</p>
-                <p>En collaboration avec : Jeux Samamuse</p>
+                <p>En collaboration avec : Jeux Sam amuse</p>
                 <Image
                     src="/images/JeuxSamAmuse-logo.png"
                     alt="Jeux Sam Amuse"
@@ -47,7 +48,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Visitez le site de Jeux Samamuse
+                    Visitez le site de Jeux Sam amuse
                 </a>
 
             </section>
