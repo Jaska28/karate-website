@@ -1,0 +1,42 @@
+.me {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.photoMe{
+    padding: 16px;
+}
+
+.me h1 {
+    font-size: 32px;
+}
+
+.privateSession {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.privateSession h2 {
+    font-size: 32px;
+}
+
+.game h2 {
+    font-size: 32px;
+}
+
+.link{
+    background-color: #00ff51;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
