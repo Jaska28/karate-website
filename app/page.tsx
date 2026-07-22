@@ -9,7 +9,7 @@ export default function Home() {
                 <Image
                     className={styles.photoMe}
                     src="/images/compe-ps-v2.jpg"
-                    alt="moi compe"
+                    alt="Jean-Simon Cyr lors d'une compétition de karaté"
                     width={500}
                     height={625}
                     priority
@@ -17,12 +17,10 @@ export default function Home() {
 
                 <div className={styles.meContent}>
                     <h1>
-                        Jean-Simon Cyr
+                        Cours privés de karaté à Sherbrooke
                     </h1>
-                    <p>Cours privés de karaté à Sherbrooke.</p>
-                    <p>Progressez à votre rythme grâce à un accompagnement personnalisé, que vous soyez débutant ou
-                        intermédiaire.</p>
-                    <Link className={styles.link} href="/private-lessons">En savoir plus</Link>
+                    <p>Un accompagnement personnalisé pour progresser techniquement et préparer vos passages de grade.</p>
+                    <Link className={styles.link} href="/contact">Discuter de vos objectifs</Link>
                 </div>
             </section>
 

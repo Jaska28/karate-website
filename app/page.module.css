@@ -2,13 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    max-width: 1200px;
     margin: 0 auto;
 
     gap: 64px;
 
     padding: 64px 32px;
+    background-color: var(--color-surface);
 }
 
 .photoMe{
@@ -36,20 +35,38 @@
 
 .me h1 {
     font-size: 32px;
+    color: var(--color-primary);
 }
 
 .privateSession {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
+
+    background-color: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .game {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+
+    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-accent-soft);
 }
 .privateSession h2 {
     font-size: 32px;
@@ -60,15 +77,25 @@
 }
 
 .link{
-    background-color: var(--color-primary);
+    background-color: var(--color-accent);
     padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
-    color: white;
+    color: var(--color-surface);
     margin-top: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.link:hover,
+.link:focus-visible {
+    background-color: var(--color-accent-hover);
 }
 
 .main p {
     color: var(--color-text);
     font-size: 20px;
+}
+
+.privateSession p {
+    color: var(--color-surface);
 }
