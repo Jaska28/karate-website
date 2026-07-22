@@ -15,61 +15,18 @@
     font-size: var(--p-font-size);
 }
 
-.me {
+.collaboration {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-
-    gap: 64px;
-
-    padding: 64px 32px;
-    background-color: var(--color-surface);
-}
-
-.photoMe{
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    flex-direction: column;
     padding: 16px;
-}
-
-/* This section is for responsive design, adjusting the layout for smaller screens */
-@media (max-width: 768px) {
-    .me {
-        flex-direction: column;
-    }
-
-    .photoMe {
-        max-width: 100%;
-        padding: 0;
-    }
-}
-
-.meContent {
-    max-width: 600px;
-}
-
-.me h1 {
-    font-size: var(--h1-font-size);
-    color: var(--color-primary);
-}
-
-.privateSession {
-    background-color: var(--color-primary);
-    color: var(--color-surface);
+    align-items: center;
 }
 
 .game {
     background-color: var(--color-accent-soft);
 }
 
-
-.main h2 {
-    font-size: var(--h2-font-size);
-}
-
-.link{
+.link {
     background-color: var(--color-accent);
     padding: 8px 16px;
     border-radius: 4px;
@@ -94,9 +51,58 @@
     font-size: var(--link-font-size);
 }
 
+.main h2 {
+    font-size: var(--h2-font-size);
+}
+
 .main p {
     color: var(--color-text);
     font-size: var(--p-font-size);
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    gap: 64px;
+
+    padding: 64px 32px;
+    background-color: var(--color-surface);
+}
+
+/* When the screen become small, the picture goes on top of the text.*/
+@media (max-width: 768px) {
+    .me {
+        flex-direction: column;
+    }
+
+    .photoMe {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.meContent {
+    max-width: 600px;
+}
+
+.me h1 {
+    font-size: var(--h1-font-size);
+    color: var(--color-primary);
+}
+
+.photoMe {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 16px;
+}
+
+.privateSession {
+    background-color: var(--color-primary);
+    color: var(--color-surface);
 }
 
 .privateSession p {
