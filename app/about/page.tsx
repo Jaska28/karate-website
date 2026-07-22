@@ -8,7 +8,7 @@ export default function About() {
                 <Image
                     className={styles.photoMe}
                     src="/images/about-v2.jpg"
-                    alt="moi compe"
+                    alt="Jean-Simon assis sur une table de pique-nique"
                     width={500}
                     height={625}
                     priority
