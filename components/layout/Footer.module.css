@@ -1,5 +1,18 @@
 .footer {
     padding: 32px;
+    background-color: var(--color-primary);
+    color: var(--color-surface);
+}
+
+.footer a {
+    color: var(--color-surface);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover,
+.footer a:focus-visible {
+    color: var(--color-accent-soft);
 }
 
 .content {
@@ -14,7 +27,7 @@
 .copyright{
     padding-top: 16px;
     text-align: center;
-    border-top: 1px solid;
+    border-top: 1px solid rgb(255 255 255 / 0.25);
 }
 
 .section h3{
