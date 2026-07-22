@@ -3,9 +3,8 @@
     top: 0;
     z-index: 1000;
     padding: 16px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgb(23 50 77 / 0.95);
     backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--color-border);
 }
 
 .content{
@@ -26,7 +25,7 @@
 }
 
 .nav a {
-    color: var(--color-text);
+    color: var(--color-surface);
     text-decoration: none;
 
     font-weight: 500;
@@ -40,7 +39,8 @@
     font-size: 1.5rem;
 }
 
-.nav a:hover {
-    color: var(--color-accent);
+.nav a:hover,
+.nav a:focus-visible {
+    color: var(--color-accent-soft);
     border-bottom-color: var(--color-accent);
 }
