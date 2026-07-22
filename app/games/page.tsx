@@ -1,4 +1,4 @@
-import styles from "@/app/about/page.module.css";
+import styles from "@/app/games/page.module.css";
 
 export default function GamesPage() {
     return (

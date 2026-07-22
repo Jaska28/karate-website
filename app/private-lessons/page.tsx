@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "@/app/about/page.module.css";
+import styles from "@/app/private-lessons/page.module.css";
 
 export default function PrivateLessonsPage() {
     return (
