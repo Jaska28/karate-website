@@ -7,7 +7,7 @@ export default function About() {
             <section className={styles.me}>
                 <Image
                     className={styles.photoMe}
-                    src="/images/about-v2.jpg"
+                    src="/images/about-v2.JPG"
                     alt="Jean-Simon assis sur une table de pique-nique"
                     width={500}
                     height={625}
