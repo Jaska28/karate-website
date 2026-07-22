@@ -1,3 +1,20 @@
+.approach, .game, .contact, .privateSession {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits {
+    text-align: left;
+    font-size: var(--p-font-size);
+}
+
 .me {
     display: flex;
     align-items: center;
@@ -34,46 +51,22 @@
 }
 
 .me h1 {
-    font-size: 32px;
+    font-size: var(--h1-font-size);
     color: var(--color-primary);
 }
 
 .privateSession {
-    width: 100%;
-    height: auto;
-    padding: 16px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
-
     background-color: var(--color-primary);
     color: var(--color-surface);
 }
 
 .game {
-    width: 100%;
-    height: auto;
-    padding: 16px;
-
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-
     background-color: var(--color-accent-soft);
 }
-.privateSession h2 {
-    font-size: 32px;
-}
 
-.game h2 {
-    font-size: 32px;
+
+.main h2 {
+    font-size: var(--h2-font-size);
 }
 
 .link{
@@ -84,6 +77,7 @@
     color: var(--color-surface);
     margin-top: 16px;
     transition: background-color 0.2s ease;
+    text-align: center;
 }
 
 .link:hover,
@@ -91,9 +85,18 @@
     background-color: var(--color-accent-hover);
 }
 
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.main a {
+    font-size: var(--link-font-size);
+}
+
 .main p {
     color: var(--color-text);
-    font-size: 20px;
+    font-size: var(--p-font-size);
 }
 
 .privateSession p {

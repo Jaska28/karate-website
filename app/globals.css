@@ -14,6 +14,12 @@
   --color-secondary-soft: #F0ECF8;
 
   --color-border: #DCE3E9;
+
+  --h1-font-size: 48px;
+  --h2-font-size: 38px;
+
+  --p-font-size: 24px;
+  --link-font-size: 24px;
 }
 
 body {
