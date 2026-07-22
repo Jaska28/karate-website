@@ -6,3 +6,8 @@
 
     border-radius: 50%;
 }
+
+.meContent h1 {
+    font-size: 32px;
+    color: var(--color-primary);
+}
